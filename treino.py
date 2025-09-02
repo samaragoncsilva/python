@@ -8,14 +8,14 @@ print("3. BACON BURGUER    - R$ 15,00")
 print("4. X-TUDO           - R$ 20,00\n")
 
 print("BEBIDAS")
-print("5. CERVEJA          - R$ 4,99")
-print("6. COCA-COLA        - R$ 3,00")
-print("7. FANTA            - R$ 2,00")
-print("8. GUARANÁ          - R$ 2,00\n")
+print("5. CERVEJA SKOL 350ML    - R$ 4,99")
+print("6. COCA-COLA  350ML      - R$ 3,00")
+print("7. FANTA  350ML          - R$ 2,00")
+print("8. GUARANÁ  350ML        - R$ 2,00\n")
 
 print("ACOMPANHAMENTOS")
-print("9. BATATA FRITA     - R$ 10,90")
-print("10. FRANGO EMPANADO - R$ 12,00\n")
+print("9. BATATA FRITA 100G    - R$ 10,90")
+print("10. FRANGO EMPANADO 100G- R$ 12,00\n")
 
 print("Digite o número do item (0 para encerrar)\n")
 
@@ -43,22 +43,22 @@ while True:
         pedidos.append("X-TUDO - R$ 20,00")
         total += 20.00
     elif escolha == "5":
-        pedidos.append("CERVEJA - R$ 4,99")
+        pedidos.append("CERVEJA SKOL 350ML  - R$ 4,99")
         total += 4.99
     elif escolha == "6":
-        pedidos.append("COCA-COLA - R$ 3,00")
+        pedidos.append("COCA-COLA 350ML  - R$ 3,00")
         total += 3.00
     elif escolha == "7":
-        pedidos.append("FANTA - R$ 2,00")
+        pedidos.append("FANTA 350ML  - R$ 2,00")
         total += 2.00
     elif escolha == "8":
-        pedidos.append("GUARANÁ - R$ 2,00")
+        pedidos.append("GUARANÁ 350ML  - R$ 2,00")
         total += 2.00
     elif escolha == "9":
-        pedidos.append("BATATA FRITA - R$ 10,90")
+        pedidos.append("BATATA FRITA 100G  - R$ 10,90")
         total += 10.90
     elif escolha == "10":
-        pedidos.append("FRANGO EMPANADO - R$ 12,00")
+        pedidos.append("FRANGO EMPANADO 100G  - R$ 12,00")
         total += 12.00
     else:
         print("Opção inválida, tente novamente.")
